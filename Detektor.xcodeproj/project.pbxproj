@@ -18,6 +18,9 @@
 		7B987F5922B03B4200AA0DA7 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B987F5522B03B4200AA0DA7 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7B987F5C22B0419900AA0DA7 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B987F5B22B0419800AA0DA7 /* RestKit.framework */; };
 		7B987F5D22B0419900AA0DA7 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B987F5B22B0419800AA0DA7 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B987F5F22B2974900AA0DA7 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7B987F5E22B2974900AA0DA7 /* Cartfile */; };
+		7B987F6122B29BC100AA0DA7 /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B987F6022B29BC100AA0DA7 /* SwiftDate.framework */; };
+		7B987F6222B29BC100AA0DA7 /* SwiftDate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B987F6022B29BC100AA0DA7 /* SwiftDate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,7 @@
 			files = (
 				7B987F5722B03B4200AA0DA7 /* SVProgressHUD.framework in Embed Frameworks */,
 				7B987F5922B03B4200AA0DA7 /* VisualRecognitionV3.framework in Embed Frameworks */,
+				7B987F6222B29BC100AA0DA7 /* SwiftDate.framework in Embed Frameworks */,
 				7B987F5D22B0419900AA0DA7 /* RestKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -47,6 +51,8 @@
 		7B987F5422B03B4100AA0DA7 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		7B987F5522B03B4200AA0DA7 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		7B987F5B22B0419800AA0DA7 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		7B987F5E22B2974900AA0DA7 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		7B987F6022B29BC100AA0DA7 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			files = (
 				7B987F5622B03B4200AA0DA7 /* SVProgressHUD.framework in Frameworks */,
 				7B987F5822B03B4200AA0DA7 /* VisualRecognitionV3.framework in Frameworks */,
+				7B987F6122B29BC100AA0DA7 /* SwiftDate.framework in Frameworks */,
 				7B987F5C22B0419900AA0DA7 /* RestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,9 +73,11 @@
 		7B987F3622B02DDF00AA0DA7 = {
 			isa = PBXGroup;
 			children = (
+				7B987F5E22B2974900AA0DA7 /* Cartfile */,
 				7B987F4122B02DDF00AA0DA7 /* Detektor */,
 				7B987F5B22B0419800AA0DA7 /* RestKit.framework */,
 				7B987F5422B03B4100AA0DA7 /* SVProgressHUD.framework */,
+				7B987F6022B29BC100AA0DA7 /* SwiftDate.framework */,
 				7B987F5522B03B4200AA0DA7 /* VisualRecognitionV3.framework */,
 				7B987F4022B02DDF00AA0DA7 /* Products */,
 			);
@@ -156,6 +165,7 @@
 			files = (
 				7B987F4D22B02DE000AA0DA7 /* LaunchScreen.storyboard in Resources */,
 				7B987F4A22B02DE000AA0DA7 /* Assets.xcassets in Resources */,
+				7B987F5F22B2974900AA0DA7 /* Cartfile in Resources */,
 				7B987F4822B02DDF00AA0DA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

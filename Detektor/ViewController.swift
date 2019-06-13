@@ -9,15 +9,15 @@
 import UIKit
 import VisualRecognitionV3
 import SVProgressHUD
+import SwiftDate
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     // TODO: set your Blue Mix API here (blueMixAPI)
     private let blueMixAPI = ""
-    private let blueMixVersion = "2019-06-13"
-    private let kMaxImageSize = 10000000 // 10MB
-    
+    private let blueMixVersion = Date().toFormat("yyyy-MM-dd")
     private let imagePicker = UIImagePickerController()
+    private let kMaxImageSize = 10000000 // 10MB
     
     @IBOutlet weak var searchButton: UIBarButtonItem!
     @IBOutlet weak var cameraButton: UIBarButtonItem!

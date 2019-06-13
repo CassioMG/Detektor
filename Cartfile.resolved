@@ -1,4 +1,5 @@
 github "SVProgressHUD/SVProgressHUD" "2.2.5"
 github "daltoniam/Starscream" "3.0.5"
+github "malcommac/SwiftDate" "6.0.3"
 github "watson-developer-cloud/restkit" "3.0.2"
 github "watson-developer-cloud/swift-sdk" "2.0.3"
