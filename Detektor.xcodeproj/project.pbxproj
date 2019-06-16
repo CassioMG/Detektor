@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B51CDD922B54FC100FB1C21 /* DetektorActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B51CDD822B54FC100FB1C21 /* DetektorActivity.swift */; };
 		7B987F4322B02DDF00AA0DA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B987F4222B02DDF00AA0DA7 /* AppDelegate.swift */; };
 		7B987F4522B02DDF00AA0DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B987F4422B02DDF00AA0DA7 /* ViewController.swift */; };
 		7B987F4822B02DDF00AA0DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B987F4622B02DDF00AA0DA7 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B51CDD822B54FC100FB1C21 /* DetektorActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetektorActivity.swift; sourceTree = "<group>"; };
 		7B987F3F22B02DDF00AA0DA7 /* Detektor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detektor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B987F4222B02DDF00AA0DA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B987F4422B02DDF00AA0DA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				7B987F4222B02DDF00AA0DA7 /* AppDelegate.swift */,
 				7B987F4422B02DDF00AA0DA7 /* ViewController.swift */,
+				7B51CDD822B54FC100FB1C21 /* DetektorActivity.swift */,
 				7B987F4622B02DDF00AA0DA7 /* Main.storyboard */,
 				7B987F4B22B02DE000AA0DA7 /* LaunchScreen.storyboard */,
 				7B987F4922B02DE000AA0DA7 /* Assets.xcassets */,
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B987F4522B02DDF00AA0DA7 /* ViewController.swift in Sources */,
+				7B51CDD922B54FC100FB1C21 /* DetektorActivity.swift in Sources */,
 				7B987F4322B02DDF00AA0DA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

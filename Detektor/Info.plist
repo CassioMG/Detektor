@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>In case you want to save Detektor&apos;s images to your photo library.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We need to acess your photo library to get pictures.</string>
 	<key>NSCameraUsageDescription</key>
